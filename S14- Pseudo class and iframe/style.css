@@ -1,0 +1,59 @@
+a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    background-color: yellowgreen;
+    color: brown;
+}
+a:active{
+    background-color: aqua;
+    color: chocolate;
+}
+p{
+    background-color: yellowgreen;
+    color: white;
+}
+p:hover{
+    background-color: aqua;
+    color: orangered;
+}
+img{
+    width: 300px;
+}
+img:hover{
+    box-shadow: 10px 10px 10px gray;
+} 
+.kumar:hover{
+    filter: drop-shadow(10px 10px 10px gray);
+}   
+.Rahul:hover{
+    filter: grayscale(10);
+}
+.kohli:hover{
+     filter: blur(10px);
+}
+.dhoni:hover{
+    filter: invert(10);
+}
+.pant:hover{
+    filter: brightness(4);
+}
+.ashwin:hover{
+    filter: contrast(10);
+}
+.dhawan:hover{
+    filter: opacity(50%);
+}
+.iyer:hover{
+    filter: saturate(5);
+}
+.gill:hover{
+    filter: sepia(10);
+}
